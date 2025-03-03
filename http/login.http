@@ -1,0 +1,12 @@
+### GET request to example server
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "id": "guest",
+  "password": "1234"
+}
+
+###
+POST http://localhost:8080/auth/valid
+###
